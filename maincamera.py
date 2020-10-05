@@ -7,7 +7,7 @@ from imutils import paths
 
 if __name__ == "__main__":
   print("hello python!")
-  capture = cv2.VideoCapture('16.mp4')
+  capture = cv2.VideoCapture('video/16.mp4')
   capture.set(3, 320)
   capture.set(4, 240)
   width = 32
